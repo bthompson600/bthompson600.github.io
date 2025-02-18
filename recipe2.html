@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <!--Brennan Thompson Period 1-->
+        <meta charset = "UTF-8">
+        <title>Italian Meatball Recipe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/my_website.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <style>
+            #recipe-page{
+                background-color: darkseagreen;
+                padding: 20px;
+            }
+            #ingredients{
+                font-family: Helvetica;
+                border: 5px solid black;
+                border-radius: 1%;
+                background-color: white;
+            }
+            #instructions{
+                font-family: Helvetica;
+                border: 5px solid black;
+                border-radius: 1%;
+                background-color: white;
+            }
+            #recipe-title{
+                font-size: 20px;
+                font-family: Helvetica;
+                text-align: center;
+                border: 5px solid black;
+                border-radius: 20%
+            }
+            #recipe-image{
+                height: 550px;
+                width: 500px;
+                position: absolute;
+                left: 650px;
+                top: 410px;
+            }
+            #recipe-tips{
+                font-style: italic;
+                font-family: helvetica;
+            }
+            .ingredient-item{
+                color: red;
+                font-family: helvetica;
+            }
+            .step{
+                color: red;
+            }
+            .history_center{
+                text-align: center;
+                font-family: Helvetica;
+            }
+            #video{
+                font-family: Helvetica;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand title-text" href="#">My Website</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a class = "title-text" href="index.html" target = "blank">Home</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle title-text" data-toggle="dropdown" href="#">Projects
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="recipe.html" target = "blank">Recipe 1</a></li>
+                    <li><a href="recipe2.html" target = "blank">Recipe 2</a></li>
+                    <li><a href="recipe3.html" target = "blank">Recipe 3</a></li>
+                  </ul>
+                </li>
+                <li><a class = "title-text" href="hobbies.html" target = "blank">Hobbies</a></li>
+                <li><a class = "title-text" href="academics.html" target = "blank">Academics</a></li>
+              </ul>
+            </div>
+          </nav>
+        <main id = "recipe-page">
+            <header id = "recipe-title">
+                <div>
+                    <h1>Italian Meatball Recipe</h1>
+                </div>
+                <nav>
+                    <a href = "#video">Video</a>
+                    <a href = "#ingredients">Ingredients</a>
+                    <a href = "#instructions"> Instructions</a>
+                    <a href = "#recipe-tips"> Sources</a>
+                </nav>
+            </header>
+            <article class = history_center>
+                <h2>History</h2>
+                <p>The history of the meatball dates back to ancient civilizations such as the Romans. The Romans would combine minced meat, breadcrumbs, wine-soaked bread, and other spices to create a meatball. It has now continued to be one of the most popular Italian recipes, able to be used in many ways. You can put it in a sub, on pasta, or even just eat it by itself.</p>
+                <br>
+                <p>This intermediate level recipe makes a wonderful Italian meatball that anyone in your family would like. It also comes with a great tomato sauce as well.</p>
+                <br>
+            </article>
+            <section id = "ingredients">
+                <div>
+                    <p>Prep: 30 min</p>
+                    <p>Cook: 2 hr</p>
+                    <p>Makes 14 meatballs</p>
+                    <h2>Ingredients</h2>
+                    <h3>Tomato Sauce</h3>
+                    <ul class = "ingredient-item">
+                        <li>1/4 cup (60 ml) olive oil</li>
+                        <li>1/2 cup (66 g) minced yellow onions</li>
+                        <li>2 teaspoons (6 g) minced garlic</li>
+                        <li>6 ounces (170 g) tomato paste</li>
+                        <li>7 cups (56 ounces) crushed canned tomatoes</li>
+                        <li>2 teaspoons (16 g) kosher salt</li>
+                        <li>1/2 teaspoon black pepper</li>
+                    </ul>
+                    <h3>Meatballs</h3>
+                    <ul class = "ingredient-item">
+                        <li>2 pounds (908g) ground beef, 80% to 85% lean</li>
+                        <li>2 large eggs</li>
+                        <li>1 cup (130g) plain breadcrumbs, or Italian-style</li>
+                        <li>1/2 cup (20 g) grated parmesan cheese</li>
+                        <li>1/2 cup (72 g) finely minced yellow onion </li>
+                        <li>2 teaspoons (16 g) kosher salt</li>
+                        <li>1 teaspoon black pepper</li>
+                        <li>1 teaspoon Italian seasonings</li>
+                        <li>1 teaspoon (3 g) minced garlic</li>
+                        <li>1/4 cup (4 g) sliced basil</li>
+                    </ul>
+                </div>
+            </section>
+            <section id = "instructions">
+                <div>
+                    <h2>Instructions</h2>
+                    <ol class = "step">
+                        <li><b>Make the Tomato Sauce</b> - In a large pot or Dutch oven, heat olive oil over medium-low heat. Once hot, add the onion and garlic, and saute until the onions are translucent, about 3 minutes.   
+                        <br>Stir in the tomato paste and cook for 1 minute. Stir in the crushed tomatoes, salt, and pepper. Simmer covered, with lid slightly ajar to prevent splattering for 30 minutes, stirring occasionally. Season with salt and pepper to taste.</li>
+                        <li><b>Heat the Oven</b> - Set the oven rack to the lower-middle position. Heat the oven to broil. Line a large baking sheet with foil and lightly grease it with olive oil. Set aside.</li>
+                        <li><b>Make the Meatball Mixture</b> - In a large bowl, add the ground beef, eggs, breadcrumbs, parmesan cheese, minced onion, salt, black pepper, Italian seasoning, and minced garlic. Use your hands to mix thoroughly until combined.</li>
+                        <li><b>Shape the Meatballs</b> - Measure out 1/3 cup of the ground beef mixture (3 ounces), about the size of an egg, then roll it into a ball. Evenly space them on the prepared baking sheet. This should yield 14 to 15 meatballs.</li>
+                        <li><b>Broil the Meatballs</b> - Transfer the meatballs to the lower-middle position in the oven. Cook until the surface is browned, about 10 to 12 minutes. Flip the meatballs and cook for an additional 2 to 3 minutes to lightly brown the other side.</li>
+                        <li><b>Simmer</b> - Transfer the meatballs to the tomato sauce. Cover the pot with the lid slightly ajar, and simmer on low heat for at least 1.5 hours, checking and stirring every 20 minutes, or as needed. The meatballs should be fork-tender when sliced.</li>
+                        <li><b>To Serve</b> - If needed, adjust the consistency of the sauce with water, about 1 tablespoon at a time. Season to taste with salt and pepper. Serve meatballs topped with sauce, sliced basil, and Parmesan cheese if desired.</li>
+                    </ol>
+                </div>
+            </section>
+            <section id = video>
+                <figure>
+                    <img id = "recipe-image" src = "media/meatball.jpg" alt = "Meatball" width = "350" height = "450">
+                    <h2>Video:</h2>
+                    <a href ="https://www.youtube.com/watch?v=ItURXZjQ5kg" target = "_blank">https://www.youtube.com/watch?v=ItURXZjQ5kg</a>
+                    <br>
+                    <video src = "media/meatball.mp4"
+                        controls></video>
+                </figure>
+            </section>
+            <footer id = "recipe-tips" style = "background-color: darkseagreen;">
+                <h2>Sources:</h2>
+                <a href = "https://www.jessicagavin.com/grandmas-italian-meatball-recipe/">https://www.jessicagavin.com/grandmas-italian-meatball-recipe/</a>
+                <br>
+                <a href = "https://www.munchery.com/blog/so-who-invented-meatballs-anyway/">https://www.munchery.com/blog/so-who-invented-meatballs-anyway/</a>
+            </footer>
+        </main>
+    </body>
+</html>
