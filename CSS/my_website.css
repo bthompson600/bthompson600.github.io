@@ -1,0 +1,94 @@
+
+#no_border{
+    border: 0px solid white;
+}
+#top-padding{
+    padding-top: 70px;
+}
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-snapchat{
+    color: yellow;
+    padding: 16px;
+}
+.fa-instagram{
+    color: purple;
+    padding: 13px;
+}
+#footer-background{
+    background-color: lightblue;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.bigger-font{
+    font-size: larger;
+}
+.margins{
+    margin: 29px;
+}
+.no-margins{
+    padding-left: 0px;
+    right: 100px;
+}
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+.bg-white{
+    background-color: white;
+}
+.border{
+    border: 3px solid black
+}
+footer{
+    background-color:darkcyan;
+    padding: 50px;
+}
+.footer-text{
+    color: white;
+}
+.bg-green{
+    background-color: #008C45;
+}
+.title-text{
+    color: white;
+}
+.about-me-padding{
+    padding-top: 60px;
+}
+.about-me-style{
+    border: 5px solid gold;
+    background-color: #008C45;
+    padding: 20px;
+}
+.title-border{
+    border: 5px solid gold;
+}
+.card-adjustment{
+    padding-left: 90px;
+}
+.card-top-padding{
+    padding-top: 100px;
+}
+.card-style{
+    border: 5px solid gold;
+    background-color: #008C45;
+}
+.academics-top-padding{
+    padding-top: 80px;
+}
+.navbar{
+    background-color: darkcyan;
+}
+.fa-google{
+    color: red;
+    padding-left: 20px;
+}
